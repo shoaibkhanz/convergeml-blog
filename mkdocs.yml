@@ -2,7 +2,7 @@ site_name: My site
 site_url: https://www.convergeml.com
 theme:
   name: material
-  custom_dir: overrides
   font:
     text: Geist
     code: Geist Mono
+  custom_dir: overrides
