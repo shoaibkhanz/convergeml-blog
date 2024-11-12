@@ -3,4 +3,5 @@ site_url: https://www.convergeml.com
 theme:
   name: material
   font:
-    text: Geist Mono
+    text: Geist
+    code: Geist Mono
