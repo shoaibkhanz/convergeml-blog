@@ -1,9 +1,25 @@
 site_name: convergeML
 site_url: https://www.convergeml.com
+repo_url: https://github.com/shoaibkhanz/convergeml-blog
 
 theme:
   name: material
   font: false
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
   palette:
       toggle:
         icon: material/weather-night  # Icon for dark mode
@@ -30,12 +46,25 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
 
 extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shoaibkhanz/
+
+# plugins:
+# - social:
+#     cards_layout_options:
+#       logo: docs/assets/img/badge_1.png
+#       background_color: "#ff1493"
+
+copyright: Copyright &copy; 2024 Shoaib Khan
 
 # sources:
   # https://squidfunk.github.io/mkdocs-material/reference/math/?h=#katex-docsjavascriptskatexjs

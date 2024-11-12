@@ -13,6 +13,11 @@ author: Shoaib Khan
 
 <span style="color:#868686;">Prophet</span> is a time-series forecasting library by <span style="color:#ea9808;">facebook</span> and it's available in Python and in R. It is simple to use and requires very little classical time-series experience, for e.g. ARIMA, SARIMA etc. Thus, you can start <span style="color:#868686;">building models quickly</span>, <span style="color:#868686;">get good results</span> and <span style="color:#868686;">become effective</span> in no time. Considering this, prophet has become a popular library for time-series applications.
 
+!!! abstract
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 A model in prophet is defined by the following equation. 
 This form is called general additive model, since we adding results from each of the components to get our prediction.

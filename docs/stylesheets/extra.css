@@ -72,11 +72,30 @@ body, .md-content, .md-content__inner, .md-typeset {
 /* Code blocks */
 code, pre {
   font-family: 'Geist Mono', monospace !important;
-  font-size: 14px; /* Standard font size for code snippets */
-  line-height: 1.4;
+  font-size: 18px; /* Standard font size for code snippets */
+  line-height: 1.2;
 }
 
-code, pre {
-  font-family: 'Geist Mono', monospace;
-  font-size: 16px;
+
+/* Set the top navigation header background to black */
+.md-header {
+  background-color: #000000 !important; /* Black background for header */
+}
+
+/* Set the text and icons in the header to white for contrast */
+.md-header__title,
+.md-header__button,
+.md-header__nav a {
+  color: #ffffff !important; /* White text/icons in header */
+}
+/* Set the tabs container and tabs bar to black */
+.md-tabs, .md-tabs__list, .md-tabs__item, .md-tabs__link {
+  background-color: #000000 !important; /* Black background */
+  color: #ffffff !important; /* White text for contrast */
+}
+
+/* Adjust active tab color to remove blue highlighting */
+.md-tabs__item--active .md-tabs__link {
+  background-color: #000000 !important; /* Ensure active tab is also black */
+  color: #ffffff !important;
 }
