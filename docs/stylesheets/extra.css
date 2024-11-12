@@ -1,0 +1,82 @@
+/*@font-face {*/
+/*  font-family: 'Geist';*/
+/*  src: url('../fonts/Geist.ttf') format('truetype');*/
+/*  font-weight: 400;*/
+/*  font-style: normal;*/
+/*}*/
+@font-face {
+  font-family: 'Geist';
+  src: url('../assets/fonts/Geist.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('../assets/fonts/GeistMono.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply custom font family globally with individual sizes for each tag */
+body, .md-content, .md-content__inner, .md-typeset {
+  font-family: 'Geist', sans-serif !important;
+}
+
+/* Specific font sizes for different tags */
+.md-typeset h1 {
+  font-weight: 900;
+  font-size: 30px; /* Large font for main headings */
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset h2 {
+  font-size: 28px; /* Slightly smaller font for subheadings */
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset h3 {
+  font-size: 24px;
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset h4 {
+  font-size: 20px;
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset h5 {
+  font-size: 18px;
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset h6 {
+  font-size: 16px;
+  color: #ffffff !important; /* Pitch black for main headings */
+}
+
+.md-typeset p {
+  font-size: 18px; /* Standard paragraph font size */
+  line-height: 1.6; /* Line height for readability */
+}
+
+.md-typeset ul, .md-typeset ol, .md-typeset li {
+  font-size: 16px; /* List items same size as paragraphs */
+}
+
+/* Links */
+.md-typeset a {
+  font-size: 16px;
+}
+
+/* Code blocks */
+code, pre {
+  font-family: 'Geist Mono', monospace !important;
+  font-size: 14px; /* Standard font size for code snippets */
+  line-height: 1.4;
+}
+
+code, pre {
+  font-family: 'Geist Mono', monospace;
+  font-size: 16px;
+}

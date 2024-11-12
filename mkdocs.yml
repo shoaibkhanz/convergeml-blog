@@ -1,8 +1,38 @@
 site_name: My site
 site_url: https://www.convergeml.com
+
 theme:
   name: material
-  font:
-    text: Geist
-    code: Geist Mono
+  font: false
+  palette:
+      toggle:
+        icon: material/weather-night  # Icon for dark mode
+        name: Switch to dark mode
+      scheme: slate
   custom_dir: overrides
+  features:
+    - header.autohide
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+
+# sources:
+  # https://squidfunk.github.io/mkdocs-material/reference/math/?h=#katex-docsjavascriptskatexjs
