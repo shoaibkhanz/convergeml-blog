@@ -1,4 +1,4 @@
-site_name: My site
+site_name: convergeML
 site_url: https://www.convergeml.com
 
 theme:
@@ -13,6 +13,9 @@ theme:
   features:
     - header.autohide
     - content.code.copy
+    - navigation.tabs
+    # - navigation.instant
+    - navigation.path
 
 extra_css:
   - stylesheets/extra.css

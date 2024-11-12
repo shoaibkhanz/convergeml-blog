@@ -3,6 +3,8 @@ layout: post
 title:  "Time-Series Forecasting using Prophet- part1"
 date:   2020-05-21 02:00:00
 categories: post
+hide:
+  - navigation
 comments: true
 author: Shoaib Khan
 ---
