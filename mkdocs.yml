@@ -14,9 +14,9 @@ theme:
       success: octicons/check-16
       question: octicons/question-16
       warning: octicons/alert-16
-      failure: octicons/x-circle-16
-      danger: octicons/zap-16
-      bug: octicons/bug-16
+      # failure: octicons/x-circle-16
+      # danger: octicons/zap-16
+      # bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
 
@@ -58,11 +58,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shoaibkhanz/
 
-# plugins:
-# - social:
-#     cards_layout_options:
-#       logo: docs/assets/img/badge_1.png
-#       background_color: "#ff1493"
 
 copyright: Copyright &copy; 2024 Shoaib Khan
 
