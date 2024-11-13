@@ -3,13 +3,13 @@ layout: post
 title:  "Time-Series Forecasting using Prophet- part1"
 date:   2020-05-21 02:00:00
 categories: post
-hide:
-  - navigation
+# hide:
+#   - navigation
 comments: true
 author: Shoaib Khan
 ---
 
-![timseries using fbprophet](../assets/img/fb_prophet_12.svg)
+![timseries using fbprophet](../../assets/img/fb_prophet_12.svg)
 
 <span style="color:#868686;">Prophet</span> is a time-series forecasting library by <span style="color:#ea9808;">facebook</span> and it's available in Python and in R. It is simple to use and requires very little classical time-series experience, for e.g. ARIMA, SARIMA etc. Thus, you can start <span style="color:#868686;">building models quickly</span>, <span style="color:#868686;">get good results</span> and <span style="color:#868686;">become effective</span> in no time. Considering this, prophet has become a popular library for time-series applications.
 
@@ -91,8 +91,8 @@ ax.plot(df['ds'], df['y'])
 ax.set_title('Max Temperature in Sydney from 2013-2017')
 plt.show()
 ```
-{% fullwidth 'assets/img/fb_prophet_11.svg' 'Fig1: Plotting daily time-series of Max Temperature in Sydney,Australia' %}
 
+![Fig1: Plotting daily time-series of Max Temperature in Sydney,Australia](../../assets/img/fb_prophet_11.svg)
 ## Fitting a Prophet model
 
 We have the data ready containing only 2 variables i.e. <span style="color:#ea9808;">ds</span> and <span style="color:#ea9808;">y</span> and this is sufficient to build our very basic prophet model.
@@ -134,7 +134,7 @@ Prophet provides some useful functions to plot data. there are 2 backends avaiab
 m1.plot(forecast1)
 
 ```
-![Fig2: Plotting predictions](../assets/img/fb_prophet_12.svg)
+![Fig2: Plotting predictions](../../assets/img/fb_prophet_12.svg)
 
 
 If we now wanted to plot <span style="color:#ea9808;">trend</span> and <span style="color:#ea9808;">seasonality</span> from the model we could easily do so by calling the `plot_components` method. We notice that Tuesdays and Thursdays are hotter than others and the values are relatively extremely small, this may suggest that this may not be significant. Interestingly, due to the location of australia, the weather is very different compared to other parts of the world. We observe in the yearly seasonality plot that July is the coldest while December is the hottest.  {% sidenote '2' 'This is also apparent if we compare yearly seasonality with Fig1' %}.
@@ -144,7 +144,8 @@ If we now wanted to plot <span style="color:#ea9808;">trend</span> and <span sty
 m1.plot_components(forecast1)
 
 ```
-{% fullwidth 'assets/img/fb_prophet_13.svg' 'Fig3: Plotting Trend and Seasonality (weekly & yearly') %}
+
+![Fig3: Plotting Trend and Seasonality (weekly & yearly](../../assets/img/fb_prophet_23.svg)
 
 ## Key Takeaways
 

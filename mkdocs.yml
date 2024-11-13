@@ -38,7 +38,8 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 markdown_extensions:
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.highlight:
         anchor_linenums: true
         line_spans: __span
